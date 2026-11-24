@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trang chủ | Nhóm 03</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&family=Bricolage+Grotesque:wght@600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body data-page="home">
+<div id="site-header"></div>
+<main>
+<section class="hero">
+  <h1>Bạn bị xao nhãng?<br>Hãy dùng Focust</h1>
+  <p class="lead">Chào mừng đến với trang của nhóm. Hãy lướt ngang để tìm hiểu về các thành viên của nhóm 03!</p>
+</section>
+
+<section class="members">
+  <div class="carousel-wrap">
+    <button class="arrow" id="prev" aria-label="Thành viên trước">‹</button>
+    <div class="carousel" id="carousel" tabindex="0"></div>
+    <button class="arrow" id="next" aria-label="Thành viên sau">›</button>
+  </div>
+  <div class="dots" id="dots"></div>
+
+  <article class="profile" id="profile" aria-live="polite">
+    <header class="profile-head">
+      <h2 id="p-name"></h2>
+      <span class="tag" id="p-role"></span>
+    </header>
+    <div class="profile-grid">
+      <dl class="facts">
+        <div><dt>MSSV</dt><dd id="p-id"></dd></div>
+        <div><dt>Ngày sinh</dt><dd id="p-birth"></dd></div>
+        <div><dt>Quê quán</dt><dd id="p-home"></dd></div>
+        <div><dt>Sở thích</dt><dd id="p-hobby"></dd></div>
+        <div><dt>Ngôn ngữ lập trình</dt><dd id="p-langs" class="chips"></dd></div>
+        <div><dt>Mạng xã hội</dt><dd id="p-social" class="socials"></dd></div>
+      </dl>
+      <div class="bio">
+        <h3>Đóng góp trong nhóm &amp; sản phẩm</h3>
+        <p id="p-bio"></p>
+      </div>
+    </div>
+  </article>
+</section>
+</main>
+<div id="site-footer"></div>
+</body>
+</html>
