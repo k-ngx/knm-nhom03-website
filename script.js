@@ -1,30 +1,30 @@
 /* ===== Cấu hình thành viên: sửa thông tin & đường dẫn ảnh tại đây ===== */
 const MEMBERS = [
-  { name: "Nguyễn Đăng Khôi", id: "26127233", birth: "22/04/2008", home: "kkkk",
-    role: "Nhóm trưởng", photo: "images/member1.jpg",
-    social: [{ type: "facebook", url: "https://facebook.com/nengoilakhoi/" }, { type: "instagram", url: "https://www.instagram.com/k.ngx._/" }, { type: "github", url: "https://github.com/k-ngx" }],
-    bio: "alo",
-    hobby: "Hobby", langs: ["C++", "Pascal"] },
-  { name: "Phạm Thanh Hoài An", id: "26127009", birth: "dd/mm/2008", home: "Quê quán",
-    role: "Trợ lý", photo: "images/member2.jpg",
-    social: [{ type: "facebook", url: "#" }, { type: "instagram", url: "#" }, { type: "github", url: "#" }],
-    bio: "Đoạn giới thiệu về đóng góp của thành viên trong nhóm và các sản phẩm. Thông tin sẽ được cập nhật sau.",
-    hobby: "Sở thích", langs: ["C++"] },
-  { name: "Lâm Quốc Thịnh", id: "26127434", birth: "dd/mm/2008", home: "Campuchia",
+  { name: "Nguyễn Đăng Khôi", id: "26127233", birth: "22/04/2008", home: "TP. Hồ Chí Minh",
+    role: "Trưởng nhóm", photo: "images/member1.jpg",
+    social: [{ type: "facebook", url: "https://facebook.com/nengoilakhoi" }, { type: "instagram", url: "https://www.instagram.com/k.ngx._/" }, { type: "github", url: "https://github.com/k-ngx" }],
+    bio: "Chia công việc và quản lý deadline của các sản phẩm trong nhóm. Vẽ MindMap và làm Poster, Website, Prototype sản phẩm phần cứng, biên bản thành lập nhóm, đánh giá thành viên và format cuốn báo cáo.",
+    hobby: "Game, Food Art & Baking, DIY, Tháo lắp phần cứng", langs: ["C++", "Pascal", "LuaU"] },
+  { name: "Phạm Thanh Hoài An", id: "26127009", birth: "08/03/2008", home: "TP. Hồ Chí Minh",
+    role: "Thư ký", photo: "images/member2.jpg",
+    social: [{ type: "facebook", url: "https://www.facebook.com/pham.an.988746" }, { type: "instagram", url: "https://www.instagram.com/phxyzan/" }],
+    bio: "Giúp quản lý nhóm và nhắc deadline các thành viên, chụp và ghi lại biên bản họp nhóm. Là người lên kịch bản, quay video chính, vẽ MindMap, chụp Poster, làm Gantt Chart, viết cuốn báo cáo, vẽ các giai đoạn của cây trong app.",
+    hobby: "Uống trà tắc", langs: ["C++"] },
+{ name: "Lâm Quốc Thịnh", id: "26127434", birth: "21/01/2008", home: "TP. Hồ Chí Minh",
     role: "Thành viên", photo: "images/member3.jpg",
-    social: [{ type: "facebook", url: "#" }, { type: "instagram", url: "#" }, { type: "github", url: "#" }],
-    bio: "Đoạn giới thiệu về đóng góp của thành viên trong nhóm và các sản phẩm. Thông tin sẽ được cập nhật sau.",
-    hobby: "Sở thích", langs: ["C++"] },
-  { name: "Nguyễn Phước Quý Lâm", id: "26127520", birth: "dd/mm/2008", home: "Quê quán",
+    social: [{ type: "facebook", url: "https://www.facebook.com/thinh.lam.826059" }],
+    bio: "Là diễn viên và người lồng tiếng chính trong video và poster, tìm hiểu các linh kiện phần cứng và cách thức kết nối, làm mô phỏng 3D của sản phẩm vật lý.",
+    hobby: "Đánh cầu lông, ăn vặt", langs: ["C++", "Python"] },
+  { name: "Nguyễn Phước Quý Lâm", id: "26127520", birth: "01/02/2008", home: "Huế",
     role: "Thành viên", photo: "images/member4.jpg",
-    social: [{ type: "facebook", url: "#" }, { type: "instagram", url: "#" }, { type: "github", url: "#" }],
-    bio: "Đoạn giới thiệu về đóng góp của thành viên trong nhóm và các sản phẩm. Thông tin sẽ được cập nhật sau.",
-    hobby: "Sở thích", langs: ["C++"] },
-  { name: "Ngô Bảo Phong", id: "26127350", birth: "dd/mm/2008", home: "Quê quán",
+    social: [{ type: "facebook", url: "https://www.facebook.com/nguyen.phuoc.quy.lam" }, { type: "github", url: "https://github.com/quylam2008" }],
+    bio: "Người phụ trách chính của phần mềm, tìm hiểu các công cụ làm và quay video giới thiệu app, viết cuốn báo cáo, tổng hợp thông tin các slide trình bày.",
+    hobby: "Chơi game, viết code, xem phim, đọc truyện, đi chơi, du lịch, tập thể dục", langs: ["C++", "Pascal", "Python"] },
+  { name: "Ngô Bảo Phong", id: "26127350", birth: "27/09/2008", home: "TP. Hồ Chí Minh",
     role: "Thành viên", photo: "images/member5.jpg",
-    social: [{ type: "facebook", url: "#" }, { type: "instagram", url: "#" }, { type: "github", url: "#" }],
-    bio: "Đoạn giới thiệu về đóng góp của thành viên trong nhóm và các sản phẩm. Thông tin sẽ được cập nhật sau.",
-    hobby: "Sở thích", langs: ["C++"] }
+    social: [{ type: "facebook", url: "https://www.facebook.com/phong.ngo.282846" }],
+    bio: "Phụ trách chính các design của nhóm, người vẽ logo nhóm, edit hiệu ứng và chèn tiếng video, thiết kế wireframes và vẽ các giai đoạn của cây cho app.",
+    hobby: "Không có", langs: ["C++"] }
 ];
 
 /* Loại mạng xã hội hỗ trợ: facebook, instagram, github, youtube, tiktok, linkedin, x, email (loại khác -> biểu tượng liên kết) */
@@ -45,7 +45,7 @@ const socialIcon = x => {
   return `<a class="soc" href="${x.url}" target="_blank" rel="noopener" aria-label="${name}" title="${name}"><svg viewBox="0 0 24 24" class="${filled ? "fl" : "st"}" aria-hidden="true">${p}</svg></a>`;
 };
 
-const NAV = [["home","index.html","Home"],["app","app.html","App"],["product","product.html","Product"],["poster","poster.html","Poster"],["video","video.html","Video"]];
+const NAV = [["home","index.html","Home"],["app","app.html","App"],["product","product.html","Product"],["poster","poster.html","Poster"],["video","video.html","Video"],["activities","activities.html","Activities"],["rules","rules.html","Rules"]];
 
 /* Hướng trượt khi vào trang (đặt từ trang trước) */
 try { document.documentElement.dataset.enter = sessionStorage.getItem("navDir") || "up"; sessionStorage.removeItem("navDir"); } catch (e) { document.documentElement.dataset.enter = "up"; }
@@ -55,13 +55,13 @@ try { const t = localStorage.getItem("theme"); if (t) document.documentElement.d
 
 document.addEventListener("DOMContentLoaded", () => {
   const fav = document.createElement("link"); fav.rel = "icon"; fav.href = "images/logo.png"; document.head.appendChild(fav);
-  const page = document.body.dataset.page;
+  const page = document.body.dataset.page, key = page;
   document.getElementById("site-header").innerHTML =
-    `<header class="nav"><a class="logo" href="index.html" aria-label="Focust - Trang chủ"><img src="images/logo.png" alt="Focust" onerror="this.replaceWith(document.createTextNode('Focust'))"></a>
-     <nav><i class="pill"></i>${NAV.map(([k,h,l]) => `<a href="${h}"${k===page?' class="active" aria-current="page"':""}>${l}</a>`).join("")}</nav></header>`;
+    `<header class="nav"><a class="logo" href="index.html" aria-label="N03 - Trang chủ"><img src="images/logo.png" alt="N03" onerror="this.replaceWith(document.createTextNode('N03'))"></a>
+     <nav><i class="pill"></i>${NAV.map(([k,h,l]) => `<a href="${h}"${k===key?' class="active" aria-current="page"':""}>${l}</a>`).join("")}</nav></header>`;
 
   document.getElementById("site-footer").innerHTML =
-    `<footer class="footer"><p>© 2026 Nhóm Focust. Làm bằng cà phê và deadline.</p>
+    `<footer class="footer"><p>© 2026 Nhóm 03.</p>
      <button class="theme" id="theme" aria-label="Đổi giao diện sáng/tối"><span class="knob"></span><span id="theme-label"></span></button></footer>`;
   const root = document.documentElement, label = document.getElementById("theme-label");
   const sync = () => label.textContent = root.dataset.theme === "dark" ? "Chế độ tối" : "Chế độ sáng";
@@ -73,7 +73,8 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   if (page === "home") initMembers();
-  try { setupTransitions(page); } catch (e) { console.error(e); }
+  initZoom();
+  try { setupTransitions(key); } catch (e) { console.error(e); }
 });
 
 function initMembers() {
@@ -160,6 +161,7 @@ function setupTransitions(page) {
   const spot = () => ({ l: act.offsetLeft, w: act.offsetWidth });
   const put = p => { pill.style.transform = `translateX(${p.l}px)`; pill.style.width = p.w + "px"; };
 
+  nav.scrollLeft = act.offsetLeft - (nav.clientWidth - act.offsetWidth) / 2;   // menu dài trên điện thoại: cuộn tới mục đang chọn
   // thanh nền menu trượt từ mục cũ sang mục mới
   let from = null;
   try { from = JSON.parse(sessionStorage.getItem("pill")); sessionStorage.removeItem("pill"); } catch (e) {}
@@ -187,8 +189,9 @@ function setupTransitions(page) {
     if (!a || e.defaultPrevented || e.button || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || a.target === "_blank" || a.hasAttribute("download")) return;
     const u = new URL(a.href, location.href);
     if (u.protocol !== location.protocol || u.host !== location.host) return;
-    const to = NAV.findIndex(n => u.pathname.endsWith("/" + n[1]) || u.pathname === "/" + n[1]);
+    const to = NAV.findIndex(n => u.pathname.endsWith("/" + n[1]) || (n[1] === "index.html" && u.pathname.endsWith("/")));
     if (to < 0) return;
+    if (u.hash && u.pathname === location.pathname) return;   // liên kết #neo trong cùng trang
     e.preventDefault();
     if (to === idx || busy) return;
     busy = true;
@@ -200,5 +203,26 @@ function setupTransitions(page) {
   });
   window.addEventListener("pageshow", e => {
     if (e.persisted) { busy = false; document.documentElement.classList.remove("leaving-next", "leaving-prev"); }
+  });
+}
+
+/* ===== Ảnh bị thiếu: hiện khung giữ chỗ ===== */
+document.addEventListener("error", e => {
+  const el = e.target;
+  if (el.tagName !== "IMG" || !el.closest("figure")) return;
+  el.style.display = "none"; el.closest("figure").classList.add("empty");
+}, true);
+
+/* ===== Xem ảnh lớn (lightbox) ===== */
+function initZoom() {
+  document.addEventListener("click", e => {
+    const img = e.target.closest("[data-zoom] figure:not(.empty) img");
+    if (!img) return;
+    const lb = document.createElement("div");
+    lb.className = "lb"; lb.innerHTML = `<img src="${img.src}" alt="${img.alt}">`;
+    const close = () => { lb.remove(); document.removeEventListener("keydown", esc); };
+    const esc = ev => { if (ev.key === "Escape") close(); };
+    lb.onclick = close; document.addEventListener("keydown", esc);
+    document.body.appendChild(lb);
   });
 }
